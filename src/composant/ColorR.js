@@ -24,7 +24,7 @@ const ColorR = ({ couleur }) => {
                 style={{ color, fontSize: '20px', fontWeight: 'bold', cursor: 'pointer' }}
                 onMouseEnter={handleMouseEnter} // Survol du texte
             >
-                Survole-moi pour changer de couleur ! oui
+                Survole-moi pour changer de couleur !
             </div>
             <button onClick={() => setColor(getRandomColor())}>Change la couleur</button>
         </div>
